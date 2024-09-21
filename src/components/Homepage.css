@@ -1,0 +1,78 @@
+.homepage-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  margin-top: 1px;
+}
+
+.homepage-left {
+  flex: 1;
+  max-width: 50%;
+}
+
+.homepage-left h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.homepage-left ul {
+  list-style-type: none; 
+  padding-left: 0; 
+}
+
+.homepage-left ul li {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  padding-left: 30px; 
+  position: relative;
+}
+
+.homepage-left ul li:before {
+  content: '\2713'; 
+  position: absolute;
+  left: 190px;
+  font-size: 1.5rem;
+  color: green;
+}
+
+.homepage-buttons {
+  margin-top: 20px;
+}
+
+.btn-start, .btn-how {
+  padding: 10px 20px;
+  font-size: 1rem;
+  margin-right: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-start {
+  background-color: #28a745;
+  color: white;
+}
+
+.btn-how {
+  background-color: white;
+  border: 1px solid #28a745;
+  color: #28a745;
+}
+
+.trusted-text {
+  margin-top: 20px;
+  font-size: 1rem;
+  color: #6c757d;
+}
+
+.homepage-right {
+  flex: 1;
+  max-width: 50%;
+}
+
+.homepage-image {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+}
